@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dx1-4v-mvp">
+                                <rect key="frame" x="2" y="57" width="578" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="48" width="320" height="30"/>
+                                </variation>
+                            </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PwM-Rt-iEK">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="tok-HE-me8"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Uw9-KU-Lyv"/>
+                                    <barButtonItem systemItem="fastForward" id="OKx-uW-Xzp"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ta5-tW-xSC"/>
+                                    <barButtonItem systemItem="stop" id="bkZ-3M-Shv"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="twa-ws-MzY"/>
+                                    <barButtonItem systemItem="refresh" id="KTZ-hP-SP0"/>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                </variation>
+                            </toolbar>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="c4w-ki-KuP">
+                                <rect key="frame" x="0.0" y="28" width="578" height="29"/>
+                                <segments>
+                                    <segment title="facebook"/>
+                                    <segment title="twitter"/>
+                                    <segment title="apple"/>
+                                    <segment title="google"/>
+                                </segments>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="28" width="400" height="29"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="320" height="29"/>
+                                </variation>
+                                <connections>
+                                    <action selector="bookmarkAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="qmF-XB-k4g"/>
+                                </connections>
+                            </segmentedControl>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ten-WJ-wr5">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="468" id="579-29-SQq"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="579-29-SQq"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="579-29-SQq"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="IXx-Zp-1Le"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="hhy-oL-fBo">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="182" y="281" width="37" height="37"/>
+                                </variation>
+                            </activityIndicatorView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mbP-dy-iSC">
+                                <rect key="frame" x="0.0" y="48" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="go"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="48" width="320" height="30"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Gqi-3a-PQs"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="top" secondItem="dx1-4v-mvp" secondAttribute="bottom" constant="1" id="1YS-FV-k0a"/>
+                            <constraint firstAttribute="trailing" secondItem="ten-WJ-wr5" secondAttribute="trailing" id="1ob-rk-M3D"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="trailing" secondItem="PwM-Rt-iEK" secondAttribute="trailing" id="4gi-I8-oGy"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="trailing" secondItem="dx1-4v-mvp" secondAttribute="trailing" id="EMU-5n-End"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="leading" secondItem="dx1-4v-mvp" secondAttribute="leading" id="FTS-0i-VJa"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="leading" secondItem="c4w-ki-KuP" secondAttribute="leading" id="Pmn-KL-hFa"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="88" id="WSS-B1-Ftu"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="bottom" secondItem="PwM-Rt-iEK" secondAttribute="top" id="WVE-JW-sOb"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cpM-OZ-r3A"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="leading" secondItem="PwM-Rt-iEK" secondAttribute="leading" id="vlp-6S-zr6"/>
+                            <constraint firstItem="ten-WJ-wr5" firstAttribute="trailing" secondItem="c4w-ki-KuP" secondAttribute="trailing" id="zAS-Bv-SEk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ten-WJ-wr5"/>
+                                <exclude reference="hhy-oL-fBo"/>
+                                <exclude reference="mbP-dy-iSC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1YS-FV-k0a"/>
+                                <exclude reference="1ob-rk-M3D"/>
+                                <exclude reference="4gi-I8-oGy"/>
+                                <exclude reference="EMU-5n-End"/>
+                                <exclude reference="FTS-0i-VJa"/>
+                                <exclude reference="Pmn-KL-hFa"/>
+                                <exclude reference="WSS-B1-Ftu"/>
+                                <exclude reference="WVE-JW-sOb"/>
+                                <exclude reference="cpM-OZ-r3A"/>
+                                <exclude reference="vlp-6S-zr6"/>
+                                <exclude reference="zAS-Bv-SEk"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ten-WJ-wr5"/>
+                                <include reference="hhy-oL-fBo"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1YS-FV-k0a"/>
+                                <include reference="1ob-rk-M3D"/>
+                                <include reference="4gi-I8-oGy"/>
+                                <include reference="EMU-5n-End"/>
+                                <include reference="FTS-0i-VJa"/>
+                                <include reference="Pmn-KL-hFa"/>
+                                <include reference="WSS-B1-Ftu"/>
+                                <include reference="WVE-JW-sOb"/>
+                                <include reference="cpM-OZ-r3A"/>
+                                <include reference="vlp-6S-zr6"/>
+                                <include reference="zAS-Bv-SEk"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="mbP-dy-iSC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="hhy-oL-fBo" id="l7e-dZ-bsh"/>
+                        <outlet property="bookmarkSegmentedControl" destination="c4w-ki-KuP" id="AZG-HZ-hiA"/>
+                        <outlet property="mainWebView" destination="ten-WJ-wr5" id="ePD-5n-bSC"/>
+                        <outlet property="urlTextField" destination="mbP-dy-iSC" id="LB6-eu-cZE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="477"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219F5C771D618E6200C44559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5C761D618E6200C44559 /* main.m */; };
+		219F5C7A1D618E6200C44559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5C791D618E6200C44559 /* AppDelegate.m */; };
+		219F5C7D1D618E6200C44559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5C7C1D618E6200C44559 /* ViewController.m */; };
+		219F5C801D618E6200C44559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F5C7E1D618E6200C44559 /* Main.storyboard */; };
+		219F5C831D618E6200C44559 /* MiniBrowser2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 219F5C811D618E6200C44559 /* MiniBrowser2.xcdatamodeld */; };
+		219F5C851D618E6200C44559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219F5C841D618E6200C44559 /* Assets.xcassets */; };
+		219F5C881D618E6200C44559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F5C861D618E6200C44559 /* LaunchScreen.storyboard */; };
+		219F5C931D618E6200C44559 /* MiniBrowser2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5C921D618E6200C44559 /* MiniBrowser2Tests.m */; };
+		219F5C9E1D618E6200C44559 /* MiniBrowser2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5C9D1D618E6200C44559 /* MiniBrowser2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219F5C8F1D618E6200C44559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219F5C6A1D618E6200C44559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F5C711D618E6200C44559;
+			remoteInfo = MiniBrowser2;
+		};
+		219F5C9A1D618E6200C44559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219F5C6A1D618E6200C44559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F5C711D618E6200C44559;
+			remoteInfo = MiniBrowser2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219F5C721D618E6200C44559 /* MiniBrowser2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniBrowser2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F5C761D618E6200C44559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219F5C781D618E6200C44559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		219F5C791D618E6200C44559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		219F5C7B1D618E6200C44559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		219F5C7C1D618E6200C44559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		219F5C7F1D618E6200C44559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219F5C821D618E6200C44559 /* MiniBrowser2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniBrowser2.xcdatamodel; sourceTree = "<group>"; };
+		219F5C841D618E6200C44559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219F5C871D618E6200C44559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219F5C891D618E6200C44559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F5C8E1D618E6200C44559 /* MiniBrowser2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniBrowser2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F5C921D618E6200C44559 /* MiniBrowser2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniBrowser2Tests.m; sourceTree = "<group>"; };
+		219F5C941D618E6200C44559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F5C991D618E6200C44559 /* MiniBrowser2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniBrowser2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219F5C9D1D618E6200C44559 /* MiniBrowser2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniBrowser2UITests.m; sourceTree = "<group>"; };
+		219F5C9F1D618E6200C44559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219F5C6F1D618E6200C44559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F5C8B1D618E6200C44559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F5C961D618E6200C44559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219F5C691D618E6200C44559 = {
+			isa = PBXGroup;
+			children = (
+				219F5C741D618E6200C44559 /* MiniBrowser2 */,
+				219F5C911D618E6200C44559 /* MiniBrowser2Tests */,
+				219F5C9C1D618E6200C44559 /* MiniBrowser2UITests */,
+				219F5C731D618E6200C44559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219F5C731D618E6200C44559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219F5C721D618E6200C44559 /* MiniBrowser2.app */,
+				219F5C8E1D618E6200C44559 /* MiniBrowser2Tests.xctest */,
+				219F5C991D618E6200C44559 /* MiniBrowser2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219F5C741D618E6200C44559 /* MiniBrowser2 */ = {
+			isa = PBXGroup;
+			children = (
+				219F5C781D618E6200C44559 /* AppDelegate.h */,
+				219F5C791D618E6200C44559 /* AppDelegate.m */,
+				219F5C7B1D618E6200C44559 /* ViewController.h */,
+				219F5C7C1D618E6200C44559 /* ViewController.m */,
+				219F5C7E1D618E6200C44559 /* Main.storyboard */,
+				219F5C841D618E6200C44559 /* Assets.xcassets */,
+				219F5C861D618E6200C44559 /* LaunchScreen.storyboard */,
+				219F5C891D618E6200C44559 /* Info.plist */,
+				219F5C811D618E6200C44559 /* MiniBrowser2.xcdatamodeld */,
+				219F5C751D618E6200C44559 /* Supporting Files */,
+			);
+			path = MiniBrowser2;
+			sourceTree = "<group>";
+		};
+		219F5C751D618E6200C44559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				219F5C761D618E6200C44559 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		219F5C911D618E6200C44559 /* MiniBrowser2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				219F5C921D618E6200C44559 /* MiniBrowser2Tests.m */,
+				219F5C941D618E6200C44559 /* Info.plist */,
+			);
+			path = MiniBrowser2Tests;
+			sourceTree = "<group>";
+		};
+		219F5C9C1D618E6200C44559 /* MiniBrowser2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				219F5C9D1D618E6200C44559 /* MiniBrowser2UITests.m */,
+				219F5C9F1D618E6200C44559 /* Info.plist */,
+			);
+			path = MiniBrowser2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219F5C711D618E6200C44559 /* MiniBrowser2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F5CA21D618E6200C44559 /* Build configuration list for PBXNativeTarget "MiniBrowser2" */;
+			buildPhases = (
+				219F5C6E1D618E6200C44559 /* Sources */,
+				219F5C6F1D618E6200C44559 /* Frameworks */,
+				219F5C701D618E6200C44559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniBrowser2;
+			productName = MiniBrowser2;
+			productReference = 219F5C721D618E6200C44559 /* MiniBrowser2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219F5C8D1D618E6200C44559 /* MiniBrowser2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F5CA51D618E6200C44559 /* Build configuration list for PBXNativeTarget "MiniBrowser2Tests" */;
+			buildPhases = (
+				219F5C8A1D618E6200C44559 /* Sources */,
+				219F5C8B1D618E6200C44559 /* Frameworks */,
+				219F5C8C1D618E6200C44559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F5C901D618E6200C44559 /* PBXTargetDependency */,
+			);
+			name = MiniBrowser2Tests;
+			productName = MiniBrowser2Tests;
+			productReference = 219F5C8E1D618E6200C44559 /* MiniBrowser2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219F5C981D618E6200C44559 /* MiniBrowser2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219F5CA81D618E6200C44559 /* Build configuration list for PBXNativeTarget "MiniBrowser2UITests" */;
+			buildPhases = (
+				219F5C951D618E6200C44559 /* Sources */,
+				219F5C961D618E6200C44559 /* Frameworks */,
+				219F5C971D618E6200C44559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219F5C9B1D618E6200C44559 /* PBXTargetDependency */,
+			);
+			name = MiniBrowser2UITests;
+			productName = MiniBrowser2UITests;
+			productReference = 219F5C991D618E6200C44559 /* MiniBrowser2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219F5C6A1D618E6200C44559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lanore;
+				TargetAttributes = {
+					219F5C711D618E6200C44559 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					219F5C8D1D618E6200C44559 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 219F5C711D618E6200C44559;
+					};
+					219F5C981D618E6200C44559 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 219F5C711D618E6200C44559;
+					};
+				};
+			};
+			buildConfigurationList = 219F5C6D1D618E6200C44559 /* Build configuration list for PBXProject "MiniBrowser2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219F5C691D618E6200C44559;
+			productRefGroup = 219F5C731D618E6200C44559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219F5C711D618E6200C44559 /* MiniBrowser2 */,
+				219F5C8D1D618E6200C44559 /* MiniBrowser2Tests */,
+				219F5C981D618E6200C44559 /* MiniBrowser2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219F5C701D618E6200C44559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F5C881D618E6200C44559 /* LaunchScreen.storyboard in Resources */,
+				219F5C851D618E6200C44559 /* Assets.xcassets in Resources */,
+				219F5C801D618E6200C44559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F5C8C1D618E6200C44559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F5C971D618E6200C44559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219F5C6E1D618E6200C44559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F5C831D618E6200C44559 /* MiniBrowser2.xcdatamodeld in Sources */,
+				219F5C7D1D618E6200C44559 /* ViewController.m in Sources */,
+				219F5C7A1D618E6200C44559 /* AppDelegate.m in Sources */,
+				219F5C771D618E6200C44559 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F5C8A1D618E6200C44559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F5C931D618E6200C44559 /* MiniBrowser2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219F5C951D618E6200C44559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219F5C9E1D618E6200C44559 /* MiniBrowser2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219F5C901D618E6200C44559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219F5C711D618E6200C44559 /* MiniBrowser2 */;
+			targetProxy = 219F5C8F1D618E6200C44559 /* PBXContainerItemProxy */;
+		};
+		219F5C9B1D618E6200C44559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219F5C711D618E6200C44559 /* MiniBrowser2 */;
+			targetProxy = 219F5C9A1D618E6200C44559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219F5C7E1D618E6200C44559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219F5C7F1D618E6200C44559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219F5C861D618E6200C44559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219F5C871D618E6200C44559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219F5CA01D618E6200C44559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219F5CA11D618E6200C44559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219F5CA31D618E6200C44559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniBrowser2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanore.MiniBrowser2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		219F5CA41D618E6200C44559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniBrowser2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanore.MiniBrowser2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		219F5CA61D618E6200C44559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniBrowser2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanore.MiniBrowser2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniBrowser2.app/MiniBrowser2";
+			};
+			name = Debug;
+		};
+		219F5CA71D618E6200C44559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniBrowser2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanore.MiniBrowser2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniBrowser2.app/MiniBrowser2";
+			};
+			name = Release;
+		};
+		219F5CA91D618E6200C44559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniBrowser2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanore.MiniBrowser2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniBrowser2;
+			};
+			name = Debug;
+		};
+		219F5CAA1D618E6200C44559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniBrowser2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanore.MiniBrowser2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniBrowser2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219F5C6D1D618E6200C44559 /* Build configuration list for PBXProject "MiniBrowser2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F5CA01D618E6200C44559 /* Debug */,
+				219F5CA11D618E6200C44559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219F5CA21D618E6200C44559 /* Build configuration list for PBXNativeTarget "MiniBrowser2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F5CA31D618E6200C44559 /* Debug */,
+				219F5CA41D618E6200C44559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219F5CA51D618E6200C44559 /* Build configuration list for PBXNativeTarget "MiniBrowser2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F5CA61D618E6200C44559 /* Debug */,
+				219F5CA71D618E6200C44559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219F5CA81D618E6200C44559 /* Build configuration list for PBXNativeTarget "MiniBrowser2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219F5CA91D618E6200C44559 /* Debug */,
+				219F5CAA1D618E6200C44559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		219F5C811D618E6200C44559 /* MiniBrowser2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				219F5C821D618E6200C44559 /* MiniBrowser2.xcdatamodel */,
+			);
+			currentVersion = 219F5C821D618E6200C44559 /* MiniBrowser2.xcdatamodel */;
+			path = MiniBrowser2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 219F5C6A1D618E6200C44559 /* Project object */;
+}
